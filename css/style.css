@@ -117,7 +117,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     height: 110vh;
-      width: 100%;
+    width: 100%;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -328,6 +328,13 @@ body {
     object-fit: cover;
     height: atuo;
     width: atuo;
+}
+@media screen and (max-width: 767px) {
+  .mainVisual__ttl--ja_img {
+    height: auto;
+    margin-left: 0;
+    width: 100vw;
+  }
 }
 .mainVisual__ttl_2 {
   position: absolute;
@@ -858,7 +865,7 @@ body {
 .about__contents {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 60px 100px;
-    width: 767px
+    width: 707px
 }
 @media screen and (max-width: 767px) {
   .about__contents {
